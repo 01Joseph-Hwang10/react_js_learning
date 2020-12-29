@@ -2,7 +2,7 @@ import React from "react";
 // import Potato from "./Potato";
 import axios from "axios";
 import Movie from '../components/Movie';
-import "./Home.css"
+import "./Home.css";
 
 class Home extends React.Component{
 

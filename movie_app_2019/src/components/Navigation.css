@@ -1,4 +1,4 @@
-.nav {
+nav {
     position: fixed;
     top: 50px;
     left: 10px;
@@ -11,7 +11,7 @@
     border-radius: 5px;
   }
   
-  .nav a {
+  nav a {
     text-decoration: none;
     color: #0008fc;
     text-transform: uppercase;
@@ -20,6 +20,6 @@
     font-weight: 600;
   }
   
-  .nav a:not(:last-child) {
+  nav a:not(:last-child) {
     margin-bottom: 20px;
   }

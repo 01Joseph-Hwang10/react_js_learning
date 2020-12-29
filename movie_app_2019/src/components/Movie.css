@@ -11,6 +11,7 @@
   
   .movies .movie {
     width: 45%;
+    height: 30vh;
     background-color: white;
     margin-bottom: 70px;
     font-weight: 300;
@@ -23,7 +24,7 @@
 
   .movies .movie a {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     text-decoration: none;
     color: inherit;
@@ -63,4 +64,9 @@
   .movie .movie__year {
     margin-right: 10px;
     font-size: 14px;
+  }
+
+  .movie__title,
+  .movie__summary {
+    text-overflow: ellipsis;
   }
